@@ -1,0 +1,24 @@
+Reference/s,Value,Desc,LCSC,Name,Package,JLCPCB,Num,Unit Price,Net Price,Running Total
+"C8-C14, C18-C24, C32-C38, C46-C52",47uF,VDD Bypass Caps,C96123,47uF 10v +-20% Cap,1206,https://jlcpcb.com/partdetail/97327-CL31A476MPHNNNE/C96123,28,$0.0828 ,$2.32,$2.32
+"C4, ... C8-C14, C18-C24, C32-C38, C46-C62",100nF,Capacitors,C14663,100nF 10v +-20% Cap,0603,https://jlcpcb.com/partdetail/97327-CL31A476MPHNNNE/C96123,47,$0.0828,$3.89,$6.21
+"C59,C60,C63,C64",22uF,Capacitors,C45783,22uF 25v +-10% Cap,0805,https://jlcpcb.com/partdetail/46786-CL21A226MAQNNNE/C45783,4,$0.0315,$0.13,$6.34
+"R1-R6, ...",20R,Mosfet current limiting resistors,C17544,20R 200V 250mW +-1% Resistor,0805,https://jlcpcb.com/partdetail/18232-0805W8F200JT5E/C17544,24,$0.0021,$0.05,$6.39
+"R9,R10,R12,R14,R15,R17, ...",10k,BEMF Div Resistor,C17902,10k 200V 250mW +-1% Resistor,1206,https://jlcpcb.com/partdetail/18590-1206W4F1002T5E/C17902,24,$0.0046,$0.11,$6.50
+"R11,R13,R16, ...",1k,BEMF Div Resistor,C4410,1k 200V 250mW +-1% Resistor,1206,https://jlcpcb.com/partdetail/4817-1206W4F1001T5E/C4410,12,$0.0043,$0.05,$6.55
+"R19, ...",100k,Vsense Div Resistor,C25803,100k 75V 100mW +-1% Resistor,0603,https://jlcpcb.com/partdetail/26546-0603WAF1003T5E/C25803,4,$0.0014 ,$0.01,$6.55
+"R83, R18, ...",10k,Vsense Div Resistor,C25804,10k 75V 100mW +-1% Resistor,0603,https://jlcpcb.com/partdetail/26547-0603WAF1002T5E/C25804,5,$0.0013,$0.01,$6.56
+"R20, ...",2.2k,ESC LED Resistor,C25879,2.2K 50V 62.5mW +-1% Resistor,0402,https://jlcpcb.com/partdetail/26622-0402WGF2201TCE/C25879,4,$0.0008,$0.00,$6.56
+"D1, ...",NA,ESC Indicator LED,C2286,1.8V-2.4V Red LED,0603,https://jlcpcb.com/partdetail/Hubei_KENTOElec-KT0603R/C2286,4,$0.0064,$0.03,$6.59
+"R7, ...",10k,Boot0 Resistor,C25804,10k 75V 100mW +-1% Resistor,0603,https://jlcpcb.com/partdetail/26547-0603WAF1002T5E/C25804,4,$0.0013,$0.01,$6.59
+"R8, ...",1k,Dshot Resistor,C11702,1k 50V 62.5mW +-1% Resistor,0402,https://jlcpcb.com/partdetail/12256-0402WGF1001TCE/C11702,4,$0.0014,$0.01,$6.60
+"FB1, ...",100R-100MHz,Ferrite Bead,NA,800mW Ferrite Bead,0805,https://jlcpcb.com/partdetail/Sunlord-GZ2012D101TF/C1015,4,$0.0140,$0.06,$6.66
+R21,0.4mR,Shunt Resistor,C495765,0.4mR 9W +-1% Shunt Resistor,3920,https://jlcpcb.com/partdetail/Shenzhen_Yezhan_Elec-ASR_M_5_04F/C495765,1,$0.3948,$0.39,$7.05
+R82,124k,8V Feedback Resistor,C22788,124k 75V 100mW +-1% Resistor,0603,https://jlcpcb.com/partdetail/23515-0603WAF1243T5E/C22788,1,$0.0014,$0.00,$7.05
+"U1, ...",NA,Mosfet Gate Driver,C53463328,NSG2065Q,QFN-24-EP(4x4),https://jlcpcb.com/partdetail/WXNSIC-NSG2065Q/C41414478,4,$0.4611,$1.84,$8.90
+"U2, ...",NA,MCU,C2765098,AT32F421G8U7,QFN-24-EP(4x4),https://jlcpcb.com/partdetail/ARTERY-AT32F421G8U7/C2765098,4,$0.8401,$3.36,$12.26
+U10,NA,3V3 Regulator,C2848334,TLV76733DRVR,WSON-6(2x2),https://jlcpcb.com/partdetail/TexasInstruments-TLV76733DRVR/C2848334,1,$0.2140 ,$0.21,$12.47
+U11,NA,8V Regulator,C7296200,LMR51420YFDDCR,SOT-23-6,https://jlcpcb.com/partdetail/TexasInstruments-LMR51420YFDDCR/C7296200,1,$1.1749,$1.17,$13.65
+L1,470nH,Inductor,C48391583,XRIM160808SR47MBCD,0603,https://jlcpcb.com/partdetail/XR-XRIM160808SR47MBCD/C48391583,1,$0.1341,$0.13,$13.78
+U3,NA,Current Sense Amplifier,C2861539,INA180B2IDBVR,SOT-23-5,https://jlcpcb.com/partdetail/TexasInstruments-INA180B2IDBVR/C2861539,1,$0.4185,$0.42,$14.20
+"Q1-Q6, ...",NA,Mosfet ,C22466709,SP40N03GNJ,PDFN-8L(3x3),https://jlcpcb.com/partdetail/Siliup-SP40N03GNJ/C22466709,24,$0.2183,$5.24,$19.44
+J1,NA,JST Connector,C160407,SM08B-SRSS-TB(LF)(SN),"SMD,P=1mm,Surface Mount，Right Angle",https://jlcpcb.com/partdetail/JST-SM08B_SRSS_TB_LF_SN/C160407,1,$0.3047,$0.30,$19.74
