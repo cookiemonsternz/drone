@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP BVN-Z-R0005-1.0
+D 0.5 mOhms +/-1% 9W Chip Resistor Wide 1612 (3831 Metric), 1216 Current Sense, Moisture Resistant
+K
+F https://www.isabellenhuette.de/fileadmin/Daten/Praezisionswiderstaende/Datenblaetter/BVN.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -3,4 +3,6 @@
 	(lib (name "lcsc") (type "KiCad") (uri "/home/chris/Projects/drone/hardware/lib/lcsc.pretty") (options "") (descr ""))
 	(lib (name "3920") (type "KiCad") (uri "/home/chris/Projects/drone/hardware/lib/3920/footprints.pretty") (options "") (descr ""))
 	(lib (name "solderpads") (type "KiCad") (uri "/home/chris/Projects/drone/hardware/lib/solder-pads/solderpads.pretty") (options "") (descr ""))
+	(lib (name "bvn-z-r0005-1.0") (type "KiCad") (uri "/home/chris/Projects/drone/hardware/lib/LIB_BVN-Z-R0005-1.0/BVN-Z-R0005-1.0/KiCad") (options "") (descr ""))
+	(lib (name "R_Pack4") (type "KiCad") (uri "/home/chris/Projects/drone/hardware/lib/ul_4D03WGJ0103T5E/KiCADv6/footprints.pretty") (options "") (descr ""))
 )

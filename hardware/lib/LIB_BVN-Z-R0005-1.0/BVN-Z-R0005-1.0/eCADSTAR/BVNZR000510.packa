@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "BVN-Z-R0005-1_0"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2023-03-31-04:09:04)
+    (mountForm default
+        (footprintRef "BVNZR000510")
+        (spec "System")
+    )
+)

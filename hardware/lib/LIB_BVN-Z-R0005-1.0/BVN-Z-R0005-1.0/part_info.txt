@@ -1,0 +1,9 @@
+Manufacturer=Isabellenhütte
+PartNumber=BVN-Z-R0005-1.0
+PartCategory=Resistor
+PackageCategory=Other
+PinCount=4
+Version=1.3
+Released=2023-03-31 04:09:04
+Downloaded=2026-04-03 21:57:28
+3D=Y

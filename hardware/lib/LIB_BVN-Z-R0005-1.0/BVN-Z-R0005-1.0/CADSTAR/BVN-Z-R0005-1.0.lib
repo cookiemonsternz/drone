@@ -1,0 +1,18 @@
+.BVN-Z-R0005-1.0 :1 ;0.5 mOhms +/-1% 9W Chip Resistor Wide 1612 (3831 Metric), 1216 Current Sense, Moisture Resistant
+BVNZR000510
+*STM R
+*NGS
+*PLB 1="1" 2="2" 3="3" 4="4"
+*MXP 4
+*DFN BVN-Z-R0005-1.0
+~!Manufacturer_Name (Isabellenhutte)
+~!Manufacturer_Part_Number (BVN-Z-R0005-1.0)
+~!Mouser Part Number (-)
+~!Mouser Price/Stock (-)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Link Datasheet (https://www.isabellenhuette.de/fileadmin/Daten/Praezisionswiderstaende/Datenblaetter/BVN.pdf)
+~!Height (1.9mm)
+~!3D_Model (BVN-Z-R0005-1.0)
+BVN-Z-R0005-1.0
+1.1!U 2.1!U 3.1!U 4.1!U 

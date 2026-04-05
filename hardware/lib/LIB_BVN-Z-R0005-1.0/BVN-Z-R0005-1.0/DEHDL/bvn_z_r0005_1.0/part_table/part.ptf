@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'BVN_Z_R0005_1.0'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Isabellenhutte", "BVN-Z-R0005-1.0" (!) = "", "BVNZR000510", "Other", "", "", "", "", "0.5 mOhms +/-1% 9W Chip Resistor Wide 1612 (3831 Metric), 1216 Current Sense, Moisture Resistant", "https://www.isabellenhuette.de/fileadmin/Daten/Praezisionswiderstaende/Datenblaetter/BVN.pdf", "1.9 mm"
+END_PART
+
+END.
