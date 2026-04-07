@@ -463,207 +463,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:LED"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "LED"
-				(at 0 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Light emitting diode"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "LED diode"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "LED_0_1"
-				(polyline
-					(pts
-						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "LED_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:Q_NMOS"
 			(pin_numbers
 				(hide yes)
@@ -3452,16 +3251,6 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 101.6) (xy 35.56 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "135882d6-e88c-4888-aa15-905a1a132c6b")
-	)
-	(wire
-		(pts
 			(xy 120.65 95.25) (xy 121.92 95.25)
 		)
 		(stroke
@@ -4602,16 +4391,6 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 110.49) (xy 35.56 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e7d0b10c-ec84-46f9-88f1-be82c9c9acad")
-	)
-	(wire
-		(pts
 			(xy 25.4 36.83) (xy 25.4 38.1)
 		)
 		(stroke
@@ -5364,87 +5143,9 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 35.56 101.6 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0be9c635-6eb8-4e86-80e9-d45cb0406522")
-		(property "Reference" "#PWR070"
-			(at 35.56 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 35.56 96.52 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 35.56 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 35.56 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 35.56 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9ba37519-5fe0-41fb-9712-c2030a0e49ac")
-		)
-		(instances
-			(project "esc"
-				(path "/573c227c-2350-4d99-ae5d-bd1eb0119199/da209500-9781-4ef0-a649-2460e772b1e9"
-					(reference "#PWR070")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "R_PACK4:R")
 		(at 228.6 91.44 270)
-		(unit 3)
+		(unit 2)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5453,7 +5154,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "14994acb-62b5-43d3-b233-274e7a27bacc")
-		(property "Reference" "R10"
+		(property "Reference" "R18"
 			(at 231.14 91.4399 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5534,8 +5235,8 @@
 		(instances
 			(project "esc"
 				(path "/573c227c-2350-4d99-ae5d-bd1eb0119199/da209500-9781-4ef0-a649-2460e772b1e9"
-					(reference "R10")
-					(unit 3)
+					(reference "R18")
+					(unit 2)
 				)
 			)
 		)
@@ -5778,7 +5479,7 @@
 	)
 	(symbol
 		(lib_id "Device:Q_NMOS")
-		(at 198.12 44.45 0)
+		(at 198.12 62.23 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5786,9 +5487,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "267cfa84-76ae-43f2-b6c3-f011f075fa7b")
-		(property "Reference" "Q13"
-			(at 203.454 42.164 0)
+		(fields_autoplaced yes)
+		(uuid "2701f84b-e379-445f-86f6-b2c915b32974")
+		(property "Reference" "Q14"
+			(at 204.47 60.9599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5799,8 +5501,7 @@
 			)
 		)
 		(property "Value" "Q_NMOS"
-			(at 204.47 45.7199 0)
-			(hide yes)
+			(at 204.47 63.4999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5811,7 +5512,7 @@
 			)
 		)
 		(property "Footprint" "lcsc:POWERPAK-1212-8_L3.0-W3.0-P0.65-LS3.3-BL"
-			(at 203.2 41.91 0)
+			(at 203.2 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5822,7 +5523,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 198.12 44.45 0)
+			(at 198.12 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5833,7 +5534,7 @@
 			)
 		)
 		(property "Description" "N-MOSFET transistor"
-			(at 198.12 44.45 0)
+			(at 198.12 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5844,18 +5545,18 @@
 			)
 		)
 		(pin "S"
-			(uuid "2df459f5-f443-4de5-a0d6-63c8af699f9b")
-		)
-		(pin "D"
-			(uuid "6eee1307-781a-4dba-863c-2a2e2f5d5df1")
+			(uuid "ad2355e4-9451-4264-bbe1-c73393c39c22")
 		)
 		(pin "G"
-			(uuid "e072aa57-6f01-4f3f-a556-f86ec9fca510")
+			(uuid "2f43b053-bc46-4293-99c2-8edbdbba798f")
+		)
+		(pin "D"
+			(uuid "d9102773-5e9f-4c75-86d5-92e9597dad4d")
 		)
 		(instances
 			(project "esc"
 				(path "/573c227c-2350-4d99-ae5d-bd1eb0119199/da209500-9781-4ef0-a649-2460e772b1e9"
-					(reference "Q13")
+					(reference "Q14")
 					(unit 1)
 				)
 			)
@@ -5946,7 +5647,7 @@
 	(symbol
 		(lib_id "R_PACK4:R")
 		(at 241.3 107.95 0)
-		(unit 3)
+		(unit 4)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5955,7 +5656,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "28fe7986-8cdb-4d77-9c4e-a64277f5dc49")
-		(property "Reference" "R19"
+		(property "Reference" "R18"
 			(at 241.3 104.14 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6035,8 +5736,8 @@
 		(instances
 			(project "esc"
 				(path "/573c227c-2350-4d99-ae5d-bd1eb0119199/da209500-9781-4ef0-a649-2460e772b1e9"
-					(reference "R19")
-					(unit 3)
+					(reference "R18")
+					(unit 4)
 				)
 			)
 		)
@@ -6358,8 +6059,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 35.56 106.68 90)
+		(lib_id "Device:Q_NMOS")
+		(at 228.6 44.45 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6368,31 +6069,31 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "5361db44-492a-42ec-8efb-360e694c11d3")
-		(property "Reference" "D3"
-			(at 39.37 106.9974 90)
+		(uuid "4bd1715b-e557-44e4-8d9d-c9661526e344")
+		(property "Reference" "Q15"
+			(at 234.95 43.1799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "LED"
-			(at 39.37 109.5374 90)
+		(property "Value" "Q_NMOS"
+			(at 234.95 45.7199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 35.56 106.68 0)
+		(property "Footprint" "lcsc:POWERPAK-1212-8_L3.0-W3.0-P0.65-LS3.3-BL"
+			(at 233.68 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6403,7 +6104,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 35.56 106.68 0)
+			(at 228.6 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6413,8 +6114,8 @@
 				)
 			)
 		)
-		(property "Description" "Light emitting diode"
-			(at 35.56 106.68 0)
+		(property "Description" "N-MOSFET transistor"
+			(at 228.6 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6424,27 +6125,104 @@
 				)
 			)
 		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 35.56 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
+		(pin "S"
+			(uuid "fbe266a8-64d4-430c-99cd-6658170be0db")
 		)
-		(pin "2"
-			(uuid "87b6c145-ce53-46c5-92a0-cda1238b6bb3")
+		(pin "G"
+			(uuid "2bd80ada-2a46-477d-a853-dc9c086ba8c7")
 		)
-		(pin "1"
-			(uuid "6e8a1718-6394-4a8c-adb1-8de29fe7c764")
+		(pin "D"
+			(uuid "beba8056-7185-49d4-90e8-d54e17b60bc9")
 		)
 		(instances
 			(project "esc"
 				(path "/573c227c-2350-4d99-ae5d-bd1eb0119199/da209500-9781-4ef0-a649-2460e772b1e9"
-					(reference "D3")
+					(reference "Q15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Q_NMOS")
+		(at 198.12 44.45 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "52b3a1ef-8ebf-419e-a5dc-7a04e478d19f")
+		(property "Reference" "Q13"
+			(at 204.47 43.1799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Q_NMOS"
+			(at 204.47 45.7199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "lcsc:POWERPAK-1212-8_L3.0-W3.0-P0.65-LS3.3-BL"
+			(at 203.2 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "N-MOSFET transistor"
+			(at 198.12 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "S"
+			(uuid "13b12702-3ad7-46a2-a9fc-d3359eb5f9e3")
+		)
+		(pin "G"
+			(uuid "3a5ef43b-d528-4b7d-8f53-ca653ae51a5e")
+		)
+		(pin "D"
+			(uuid "908cebfa-af79-4a0c-9dd1-7cbf86e31a86")
+		)
+		(instances
+			(project "esc"
+				(path "/573c227c-2350-4d99-ae5d-bd1eb0119199/da209500-9781-4ef0-a649-2460e772b1e9"
+					(reference "Q13")
 					(unit 1)
 				)
 			)
@@ -6600,6 +6378,91 @@
 			(project "esc"
 				(path "/573c227c-2350-4d99-ae5d-bd1eb0119199/da209500-9781-4ef0-a649-2460e772b1e9"
 					(reference "#PWR077")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Q_NMOS")
+		(at 228.6 62.23 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "584ef7c9-687e-49ce-ad81-a965e8056941")
+		(property "Reference" "Q16"
+			(at 234.95 60.9599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Q_NMOS"
+			(at 234.95 63.4999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "lcsc:POWERPAK-1212-8_L3.0-W3.0-P0.65-LS3.3-BL"
+			(at 233.68 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 228.6 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "N-MOSFET transistor"
+			(at 228.6 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "S"
+			(uuid "c4fca52d-59c8-4568-a838-b7f0e4dd9e49")
+		)
+		(pin "G"
+			(uuid "2b38d949-2b77-4aaa-a8de-b25a19c78aa8")
+		)
+		(pin "D"
+			(uuid "6d8a8379-836d-40bb-8b0f-b7dd2f7ed5c3")
+		)
+		(instances
+			(project "esc"
+				(path "/573c227c-2350-4d99-ae5d-bd1eb0119199/da209500-9781-4ef0-a649-2460e772b1e9"
+					(reference "Q16")
 					(unit 1)
 				)
 			)
@@ -6845,7 +6708,7 @@
 	(symbol
 		(lib_id "R_PACK4:R")
 		(at 256.54 91.44 270)
-		(unit 3)
+		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6854,7 +6717,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "616d76c8-a6bd-4b30-921b-4c17ff554ea0")
-		(property "Reference" "R15"
+		(property "Reference" "R18"
 			(at 259.08 91.4399 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6935,8 +6798,8 @@
 		(instances
 			(project "esc"
 				(path "/573c227c-2350-4d99-ae5d-bd1eb0119199/da209500-9781-4ef0-a649-2460e772b1e9"
-					(reference "R15")
-					(unit 3)
+					(reference "R18")
+					(unit 1)
 				)
 			)
 		)
@@ -7248,169 +7111,6 @@
 			(project "esc"
 				(path "/573c227c-2350-4d99-ae5d-bd1eb0119199/da209500-9781-4ef0-a649-2460e772b1e9"
 					(reference "#PWR072")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Q_NMOS")
-		(at 257.81 44.45 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "6e09006b-0b78-455d-a828-87e563d522bf")
-		(property "Reference" "Q17"
-			(at 263.144 42.164 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Q_NMOS"
-			(at 264.16 45.7199 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "lcsc:POWERPAK-1212-8_L3.0-W3.0-P0.65-LS3.3-BL"
-			(at 262.89 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 257.81 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "N-MOSFET transistor"
-			(at 257.81 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "S"
-			(uuid "0bdb140f-1116-4114-87bc-e848f5c70999")
-		)
-		(pin "D"
-			(uuid "3d27e830-9de3-49a1-bd84-50e62eff7a2d")
-		)
-		(pin "G"
-			(uuid "df48e9ed-0392-4e13-a19a-b95177e26af9")
-		)
-		(instances
-			(project "esc"
-				(path "/573c227c-2350-4d99-ae5d-bd1eb0119199/da209500-9781-4ef0-a649-2460e772b1e9"
-					(reference "Q17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 35.56 119.38 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7279bba3-99a8-453c-bc21-82d0cd987e79")
-		(property "Reference" "#PWR071"
-			(at 35.56 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 35.56 124.46 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 35.56 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 35.56 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 35.56 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7a4a9f43-d654-4760-bd09-fc7afb2c148c")
-		)
-		(instances
-			(project "esc"
-				(path "/573c227c-2350-4d99-ae5d-bd1eb0119199/da209500-9781-4ef0-a649-2460e772b1e9"
-					(reference "#PWR071")
 					(unit 1)
 				)
 			)
@@ -7828,6 +7528,91 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:Q_NMOS")
+		(at 257.81 44.45 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "83adf0f8-9b84-482b-a51b-2802de3bb163")
+		(property "Reference" "Q17"
+			(at 264.16 43.1799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Q_NMOS"
+			(at 264.16 45.7199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "lcsc:POWERPAK-1212-8_L3.0-W3.0-P0.65-LS3.3-BL"
+			(at 262.89 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 257.81 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "N-MOSFET transistor"
+			(at 257.81 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "S"
+			(uuid "5a34c7a2-8056-495c-85ee-8546183901ad")
+		)
+		(pin "G"
+			(uuid "7719762e-ae56-4840-b5d6-2431604c0582")
+		)
+		(pin "D"
+			(uuid "0253ca7c-8196-494d-aad0-ea6bb8d4513d")
+		)
+		(instances
+			(project "esc"
+				(path "/573c227c-2350-4d99-ae5d-bd1eb0119199/da209500-9781-4ef0-a649-2460e772b1e9"
+					(reference "Q17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 39.37 74.93 270)
 		(unit 1)
@@ -7918,7 +7703,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8dca5036-1d69-4743-a9bc-75c62a412c91")
-		(property "Reference" "R9"
+		(property "Reference" "R10"
 			(at 201.93 91.4399 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7999,93 +7784,8 @@
 		(instances
 			(project "esc"
 				(path "/573c227c-2350-4d99-ae5d-bd1eb0119199/da209500-9781-4ef0-a649-2460e772b1e9"
-					(reference "R9")
+					(reference "R10")
 					(unit 3)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Q_NMOS")
-		(at 228.6 44.45 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "908d44db-688a-4764-b089-7af726adad86")
-		(property "Reference" "Q15"
-			(at 233.934 42.164 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Q_NMOS"
-			(at 234.95 45.7199 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "lcsc:POWERPAK-1212-8_L3.0-W3.0-P0.65-LS3.3-BL"
-			(at 233.68 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 228.6 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "N-MOSFET transistor"
-			(at 228.6 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "S"
-			(uuid "65c58b02-ad15-4f77-a98a-57a223e14b6a")
-		)
-		(pin "D"
-			(uuid "43378560-8c48-490c-a4bd-05e621bb8d1e")
-		)
-		(pin "G"
-			(uuid "95d15bbb-ae35-404b-8862-db5f889533e7")
-		)
-		(instances
-			(project "esc"
-				(path "/573c227c-2350-4d99-ae5d-bd1eb0119199/da209500-9781-4ef0-a649-2460e772b1e9"
-					(reference "Q15")
-					(unit 1)
 				)
 			)
 		)
@@ -8329,91 +8029,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Q_NMOS")
-		(at 198.12 62.23 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "a2ee8619-fc36-4e3c-9de8-afa467fa1a8c")
-		(property "Reference" "Q14"
-			(at 203.454 59.944 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Q_NMOS"
-			(at 204.47 63.4999 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "lcsc:POWERPAK-1212-8_L3.0-W3.0-P0.65-LS3.3-BL"
-			(at 203.2 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 198.12 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "N-MOSFET transistor"
-			(at 198.12 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "S"
-			(uuid "26d10108-f7ff-4ba5-a26a-639c17db2867")
-		)
-		(pin "D"
-			(uuid "965bc01c-bd6f-4f53-868a-74a57caf5843")
-		)
-		(pin "G"
-			(uuid "224f0e48-a2da-471b-9802-a234f9a71309")
-		)
-		(instances
-			(project "esc"
-				(path "/573c227c-2350-4d99-ae5d-bd1eb0119199/da209500-9781-4ef0-a649-2460e772b1e9"
-					(reference "Q14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 256.54 113.03 180)
 		(unit 1)
@@ -8489,91 +8104,6 @@
 			(project "esc"
 				(path "/573c227c-2350-4d99-ae5d-bd1eb0119199/da209500-9781-4ef0-a649-2460e772b1e9"
 					(reference "R40")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Q_NMOS")
-		(at 257.81 62.23 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "ab684c2b-85a3-472d-91a3-b7114fdbf1e5")
-		(property "Reference" "Q18"
-			(at 263.144 59.944 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Q_NMOS"
-			(at 264.16 63.4999 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "lcsc:POWERPAK-1212-8_L3.0-W3.0-P0.65-LS3.3-BL"
-			(at 262.89 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 257.81 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "N-MOSFET transistor"
-			(at 257.81 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "S"
-			(uuid "a0279e27-1f95-463d-9a22-240e8d86e345")
-		)
-		(pin "D"
-			(uuid "eda5fe4d-d5b7-4f7b-978c-a828edcf70ae")
-		)
-		(pin "G"
-			(uuid "e7a11dbc-ae28-4fec-854e-a9d9383df57f")
-		)
-		(instances
-			(project "esc"
-				(path "/573c227c-2350-4d99-ae5d-bd1eb0119199/da209500-9781-4ef0-a649-2460e772b1e9"
-					(reference "Q18")
 					(unit 1)
 				)
 			)
@@ -8814,88 +8344,6 @@
 			(project "esc"
 				(path "/573c227c-2350-4d99-ae5d-bd1eb0119199/da209500-9781-4ef0-a649-2460e772b1e9"
 					(reference "#PWR085")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 35.56 115.57 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "aff388fd-7d3d-448d-b93b-68c434375692")
-		(property "Reference" "R44"
-			(at 38.1 114.2999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2.2k"
-			(at 38.1 116.8399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 33.782 115.57 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 35.56 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 35.56 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "788a4774-3b7c-4bb5-a1d1-335af08a632d")
-		)
-		(pin "1"
-			(uuid "5a8e087f-f6b5-419f-be2e-45e0e1e7c686")
-		)
-		(instances
-			(project "esc"
-				(path "/573c227c-2350-4d99-ae5d-bd1eb0119199/da209500-9781-4ef0-a649-2460e772b1e9"
-					(reference "R44")
 					(unit 1)
 				)
 			)
@@ -9929,6 +9377,91 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:Q_NMOS")
+		(at 257.81 62.23 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d1dd643e-3a0d-47e2-85f0-c25c8ff53810")
+		(property "Reference" "Q18"
+			(at 264.16 60.9599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Q_NMOS"
+			(at 264.16 63.4999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "lcsc:POWERPAK-1212-8_L3.0-W3.0-P0.65-LS3.3-BL"
+			(at 262.89 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 257.81 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "N-MOSFET transistor"
+			(at 257.81 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "S"
+			(uuid "975491b3-3329-4c6f-a520-981657d73018")
+		)
+		(pin "G"
+			(uuid "4f8a7739-3e0c-4c7e-9497-0841aec3a362")
+		)
+		(pin "D"
+			(uuid "126ad941-4d52-4c5e-a3c1-767b310d2567")
+		)
+		(instances
+			(project "esc"
+				(path "/573c227c-2350-4d99-ae5d-bd1eb0119199/da209500-9781-4ef0-a649-2460e772b1e9"
+					(reference "Q18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 199.39 113.03 180)
 		(unit 1)
@@ -10012,7 +9545,7 @@
 	(symbol
 		(lib_id "R_PACK4:R")
 		(at 212.09 107.95 0)
-		(unit 3)
+		(unit 4)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10021,7 +9554,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d233b143-37de-473d-a5f1-0336f324f9da")
-		(property "Reference" "R18"
+		(property "Reference" "R10"
 			(at 212.09 104.14 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10101,8 +9634,8 @@
 		(instances
 			(project "esc"
 				(path "/573c227c-2350-4d99-ae5d-bd1eb0119199/da209500-9781-4ef0-a649-2460e772b1e9"
-					(reference "R18")
-					(unit 3)
+					(reference "R10")
+					(unit 4)
 				)
 			)
 		)
@@ -10512,7 +10045,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f636d3f2-06e5-4c4a-87a3-51c0d285cc4a")
-		(property "Reference" "R22"
+		(property "Reference" "R18"
 			(at 270.51 104.14 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10592,93 +10125,8 @@
 		(instances
 			(project "esc"
 				(path "/573c227c-2350-4d99-ae5d-bd1eb0119199/da209500-9781-4ef0-a649-2460e772b1e9"
-					(reference "R22")
+					(reference "R18")
 					(unit 3)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Q_NMOS")
-		(at 228.6 62.23 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "f9740047-651e-4a81-9194-6582d912a59c")
-		(property "Reference" "Q16"
-			(at 233.934 59.944 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Q_NMOS"
-			(at 234.95 63.4999 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "lcsc:POWERPAK-1212-8_L3.0-W3.0-P0.65-LS3.3-BL"
-			(at 233.68 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 228.6 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "N-MOSFET transistor"
-			(at 228.6 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "S"
-			(uuid "6f4e9241-4c1f-484f-862f-9be9bf705997")
-		)
-		(pin "D"
-			(uuid "4210e8cd-8541-499a-91d7-17505c637fe0")
-		)
-		(pin "G"
-			(uuid "9fee6066-bdbf-4a52-b248-196da559d59a")
-		)
-		(instances
-			(project "esc"
-				(path "/573c227c-2350-4d99-ae5d-bd1eb0119199/da209500-9781-4ef0-a649-2460e772b1e9"
-					(reference "Q16")
-					(unit 1)
 				)
 			)
 		)

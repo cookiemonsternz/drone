@@ -1,14 +1,10 @@
 {
   "board": {
-    "active_layer": 0,
-    "active_layer_preset": "No Drawing Layers",
+    "active_layer": 2,
+    "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
-    "hidden_nets": [
-      "GND",
-      "+3.3V",
-      "+8V"
-    ],
+    "hidden_nets": [],
     "high_contrast_mode": 1,
     "net_color_mode": 1,
     "opacity": {
@@ -53,11 +49,9 @@
       "drc_exclusions",
       "locked_item_shadows",
       "conflict_shadows",
-      "shapes",
-      "board_outline_area",
-      "ly_points"
+      "shapes"
     ],
-    "visible_layers": "ffffffff_ffffffff_ffffd575_ff55ffff",
+    "visible_layers": "ffffffff_ffffffff_ffffd575_ff555555",
     "zone_display_mode": 0
   },
   "git": {
@@ -83,6 +77,8 @@
       false,
       false,
       false,
+      false,
+      false,
       false
     ],
     "col_order": [
@@ -97,9 +93,26 @@
       8,
       9,
       10,
-      11
+      11,
+      12,
+      13
     ],
-    "col_widths": [],
+    "col_widths": [
+      186,
+      171,
+      112,
+      79,
+      112,
+      112,
+      112,
+      83,
+      112,
+      112,
+      112,
+      112,
+      112,
+      667
+    ],
     "custom_group_rules": [],
     "expanded_rows": [],
     "filter_by_net_name": true,
@@ -111,7 +124,7 @@
     "show_unconnected_nets": false,
     "show_zero_pad_nets": false,
     "sort_ascending": true,
-    "sorting_column": -1
+    "sorting_column": 0
   },
   "open_jobsets": [],
   "project": {

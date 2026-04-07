@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.27,
-          "width": 2.54
+          "drill": 1.8,
+          "height": 2.0,
+          "width": 2.0
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -196,6 +196,7 @@
       "track_widths": [
         0.0,
         0.1,
+        0.15,
         0.2,
         0.25,
         0.4,
@@ -407,9 +408,7 @@
           "drc_exclusions",
           "locked_item_shadows",
           "conflict_shadows",
-          "shapes",
-          "board_outline_area",
-          "ly_points"
+          "shapes"
         ]
       }
     ],
@@ -618,6 +617,7 @@
       "footprint_filter": "ignore",
       "footprint_link_issues": "warning",
       "four_way_junction": "ignore",
+      "global_label_dangling": "warning",
       "ground_pin_not_ground": "warning",
       "hier_label_mismatch": "error",
       "isolated_pin_label": "warning",
@@ -691,10 +691,14 @@
   },
   "pcbnew": {
     "last_paths": {
+      "gencad": "",
       "idf": "",
       "netlist": "",
       "plot": "",
+      "pos_files": "",
       "specctra_dsn": "",
+      "step": "",
+      "svg": "",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -805,9 +809,17 @@
     "meta": {
       "version": 1
     },
+    "net_format_name": "",
     "page_layout_descr_file": "",
     "plot_directory": "",
     "reuse_designators": true,
+    "space_save_all_events": true,
+    "spice_current_sheet_as_root": false,
+    "spice_external_command": "spice \"%I\"",
+    "spice_model_current_sheet_as_root": true,
+    "spice_save_all_currents": false,
+    "spice_save_all_dissipations": false,
+    "spice_save_all_voltages": false,
     "subpart_first_id": 65,
     "subpart_id_separator": 0,
     "top_level_sheets": [
@@ -817,7 +829,7 @@
         "uuid": "573c227c-2350-4d99-ae5d-bd1eb0119199"
       }
     ],
-    "used_designators": "#PWR20-21,#PWR24-25,#PWR27,#PWR35-37,#PWR44-45,#PWR57-58,#PWR61,#PWR74,RN1-18,R9-10,R12,R14-15,R17-19,R22-23,R29-31,R34-36,R39-41,R49-50,C7,C9-14",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
