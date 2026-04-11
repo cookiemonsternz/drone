@@ -1,0 +1,7 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "ICM-42688-P") (type "KiCad") (uri "C:/Users/Christopher/Documents/.Projects/drone/hardware/lib/ICM-42688-P/ICM-42688-P.kicad_sym") (options "") (descr ""))
+	(lib (name "MAX7456EUI") (type "KiCad") (uri "C:/Users/Christopher/Documents/.Projects/drone/hardware/lib/max7456eui/2026-04-10_04-32-46.kicad_sym") (options "") (descr ""))
+	(lib (name "TX-5823") (type "KiCad") (uri "C:/Users/Christopher/Documents/.Projects/drone/hardware/lib/TX-5823/TX-5823.kicad_sym") (options "") (descr ""))
+	(lib (name "BL8072") (type "KiCad") (uri "C:/Users/Christopher/Documents/.Projects/drone/hardware/lib/BL8072CLTR50/BL8072.kicad_sym") (options "") (descr ""))
+)
