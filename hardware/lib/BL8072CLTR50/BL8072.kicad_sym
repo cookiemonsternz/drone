@@ -73,6 +73,17 @@
 					(type none)
 				)
 			)
+			(rectangle
+				(start -6.35 3.81)
+				(end 6.35 -3.81)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
 		)
 		(symbol "BL8072_1_1"
 			(pin input line

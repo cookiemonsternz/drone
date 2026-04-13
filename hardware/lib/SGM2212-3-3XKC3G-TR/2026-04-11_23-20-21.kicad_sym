@@ -2,33 +2,36 @@
 	(version 20251024)
 	(generator "kicad_symbol_editor")
 	(generator_version "10.0")
-	(symbol "BL8072"
+	(symbol "SGM2212-3.3XKC3G_TR"
+		(pin_names
+			(offset 0.254)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U"
-			(at 0 6.858 0)
+			(at 0 11.43 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Value" "BL8072CLTR50"
-			(at 0 5.08 0)
+		(property "Value" "SGM2212-3.3XKC3G/TR"
+			(at 0 8.89 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SOT-223-3_SGM2212_SNC"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36,10 +39,11 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "SGM2212-3.3XKC3G/TR"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -47,6 +51,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
@@ -61,24 +66,43 @@
 				)
 			)
 		)
-		(symbol "BL8072_0_1"
-			(rectangle
-				(start -6.35 3.81)
-				(end 6.35 -3.81)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
+		(property "ki_locked" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
-		(symbol "BL8072_1_1"
-			(pin input line
+		(property "ki_keywords" "SGM2212-3.3XKC3G/TR"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "SOT-223-3_SGM2212_SNC SOT-223-3_SGM2212_SNC-M SOT-223-3_SGM2212_SNC-L"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "SGM2212-3.3XKC3G_TR_0_1"
+			(pin power_out line
 				(at 0 -6.35 90)
 				(length 2.54)
-				(name "Vss"
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -96,7 +120,7 @@
 			(pin output line
 				(at 8.89 0 180)
 				(length 2.54)
-				(name "Vout"
+				(name "VOUT"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -114,7 +138,7 @@
 			(pin input line
 				(at -8.89 0 0)
 				(length 2.54)
-				(name "Vin"
+				(name "VIN"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -127,6 +151,19 @@
 							(size 1.27 1.27)
 						)
 					)
+				)
+			)
+		)
+		(symbol "SGM2212-3.3XKC3G_TR_1_1"
+			(rectangle
+				(start -6.35 3.81)
+				(end 6.35 -3.81)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
 				)
 			)
 		)

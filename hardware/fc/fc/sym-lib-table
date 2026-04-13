@@ -4,4 +4,7 @@
 	(lib (name "MAX7456EUI") (type "KiCad") (uri "C:/Users/Christopher/Documents/.Projects/drone/hardware/lib/max7456eui/2026-04-10_04-32-46.kicad_sym") (options "") (descr ""))
 	(lib (name "TX-5823") (type "KiCad") (uri "C:/Users/Christopher/Documents/.Projects/drone/hardware/lib/TX-5823/TX-5823.kicad_sym") (options "") (descr ""))
 	(lib (name "BL8072") (type "KiCad") (uri "C:/Users/Christopher/Documents/.Projects/drone/hardware/lib/BL8072CLTR50/BL8072.kicad_sym") (options "") (descr ""))
+	(lib (name "SGM2212-3-3XKC3G-TR") (type "KiCad") (uri "C:/Users/Christopher/Documents/.Projects/drone/hardware/lib/SGM2212-3-3XKC3G-TR/2026-04-11_23-20-21.kicad_sym") (options "") (descr ""))
+	(lib (name "W25Q128JVSIQ") (type "KiCad") (uri "C:/Users/Christopher/Documents/.Projects/drone/hardware/lib/W25Q128JVSIQ/2026-04-12_00-19-17.kicad_sym") (options "") (descr ""))
+	(lib (name "CSTNE8M00G520000R0") (type "KiCad") (uri "C:/Users/Christopher/Documents/.Projects/drone/hardware/lib/CSTNE8M00G520000R0/CSTNE8M00G520000R0.kicad_sym") (options "") (descr ""))
 )
