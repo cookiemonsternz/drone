@@ -1,0 +1,12 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "board_outline") (type "KiCad") (uri "C:/Users/Christopher/Documents/.Projects/drone/hardware/fc/lib/board_outline.pretty") (options "") (descr ""))
+	(lib (name "ICM-42688-P") (type "KiCad") (uri "C:/Users/Christopher/Documents/.Projects/drone/hardware/lib/ICM-42688-P") (options "") (descr ""))
+	(lib (name "MAX7456eui+") (type "KiCad") (uri "C:/Users/Christopher/Documents/.Projects/drone/hardware/lib/max7456eui/footprints.pretty") (options "") (descr ""))
+	(lib (name "BL8072CLTR50") (type "KiCad") (uri "C:/Users/Christopher/Documents/.Projects/drone/hardware/lib/BL8072CLTR50") (options "") (descr ""))
+	(lib (name "W25Q128JVSIQ TR") (type "KiCad") (uri "C:/Users/Christopher/Documents/.Projects/drone/hardware/lib/W25Q128JVSIQ/footprints.pretty") (options "") (descr ""))
+	(lib (name "CSTNE8M00G520000R0") (type "KiCad") (uri "C:/Users/Christopher/Documents/.Projects/drone/hardware/lib/CSTNE8M00G520000R0") (options "") (descr ""))
+	(lib (name "MICROXNJ") (type "KiCad") (uri "C:/Users/Christopher/Documents/.Projects/drone/hardware/lib/MICROXNJ") (options "") (descr ""))
+	(lib (name "TS-1088-AR02016") (type "KiCad") (uri "C:/Users/Christopher/Documents/.Projects/drone/hardware/lib/TS-1088-AR02016") (options "") (descr ""))
+	(lib (name "0806_INDUCTOR") (type "KiCad") (uri "C:/Users/Christopher/Documents/.Projects/drone/hardware/lib/0806_INDUCTOR") (options "") (descr ""))
+)

@@ -1,5 +1,5 @@
 
-(footprint PQFN50P300X250X97-14N (layer F.Cu) (tedit 69D87CB7)
+(footprint PQFN50P300X250X97-14N (layer F.Cu) (tedit 69E9D51C)
   (descr "")
   (attr smd)
   (fp_text reference REF** (at -0.176 -2.0048 0) (layer F.SilkS)
