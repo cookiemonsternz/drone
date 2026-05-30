@@ -207,7 +207,7 @@ The physics simulations can be found in the FreeCAD project under **hardware/cad
 - **hardware/**
     - **bom/** - BOM Files (CSV and LibreOffice Calc)
     - **cad/** - CAD Files
-      - **render/** - Files for rendering (inc. gltf models)
+      - **render/** - Files for rendering (inc. gltf models) *Note that the Blender file for the renders exceeds the maximum file size for Github, it can be found in [Google Drive](https://drive.google.com/file/d/1S7Jwgq-ZpHFBb5yz26d0MQlCH4Twi4XQ/view?usp=sharing).*
       - **sim/** - FreeCAD files for FEM Analysis
     - **esc/** - ESC KiCad Project
       - **production/** - Production files (Gerber, etc.)
