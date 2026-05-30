@@ -1,11 +1,11 @@
-# F~\~ish~PV
+# F<sub>~ish</sub>PV
 
 ![Render](/hardware/cad/render/render-2.png)
 _Tinywhoop drone with custom ESC, FC, and frame._
 
 ## What?
 
-F~\~ish~PV is a open source, custom stack, 75mm tinywhoop drone design.
+F<sub>\~ish</sub>PV is a open source, custom stack, 75mm tinywhoop drone design.
 It utilises AM32 for the ESC firmware and Betaflight for the flight controller. 
 
 Custom components include a from-scratch frame, designed for 3d printing (in HP-12-CF filament), a fully custom 15A ESC, and a custom FC. 
