@@ -100,14 +100,14 @@ I ran a handful of simulations in FreeCAD, and these are just a small sample of 
 
 First up, a collision where the battery is impacted. Think the drone just dropping onto the ground. This is for a collision at approximately 50km/h assuming a collision time of 25ms and a net mass of around 250g (so probably a bit extreme), to be specific, I modelled a force of 150N.
 ![Battery collision](https://cdn.hackclub.com/019e4a19-c032-76d2-89ff-21970fd752ff/paste-1779359660120.png)
-As you can see, there is even deflection across all four mounting posts for the FC/ESC stack, which will result in minimal tensile strain (which is the typical cause of damage).
+As you can see, there is even deflection across all four mounting posts for the FC/ESC stack, which will result in minimal tensile strain on the PCBs (which is the typical cause of damage).
 
 Another type of collision I modelled is just a collision directly to the prop guards. Again, a 150N force which would be ~50km/h as mentioned above.
 ![Prop guard collision](https://cdn.hackclub.com/019e4a1c-1d99-70b0-8190-ee19058ad92c/paste-1779359815752.png)
 There is a lot of displacement on the prop guard but it is effectively dissipated and won't have much impact on the electronics, which is the main thing to be worried about. 
 For this specific impact, I would be reasonably worried about damage to the frame, but for most crashes (which are probably not at 50km/h) it should be perfectly fine.
 
-Many more simulations at different loads and also modelling the HP-12 MJF material can be found [here](https://github.com/cookiemonsternz/drone/blob/main/journals/journal-15-05-2026.md).
+Many more simulations at different loads and also modelling the HP-12 MJF material can be found [here](https://github.com/cookiemonsternz/drone/blob/main/journals/journal-14-05-2026.md).
 
 ## BOM
 
@@ -190,7 +190,7 @@ Many more simulations at different loads and also modelling the HP-12 MJF materi
 | Kiwiquads                   | $59.05  | $61.96      |
 | Radiomaster                 | $34.99  | $44.99      |
 | JLCPCB                      | $10.50  | $32.06      |
-| ---                         | $182.97 | $217.51     |
+| ---                         | $199.03 | $259.50     |
 
 
 
