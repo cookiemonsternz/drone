@@ -220,11 +220,17 @@ The physics simulations can be found in the FreeCAD project under **hardware/cad
 
 ## References
 [Betaflight Documentation](https://betaflight.com/docs/development)
+
 [AM32 Documentation](https://wiki.am32.ca/general/docs.html) - Especially re [Hardware Design](https://wiki.am32.ca/development/Hardware-Design.html)
+
 [AcciFPV FC](https://www.pcbway.com/project/shareproject/Acci_FPV_Flight_Controller_Betaflight_STM32F405_AT32F435_48fb0ecb.html)
+
 [Hack Club Blueprint - FC Guided Project](https://blueprint.hackclub.com/starter-projects/flightcontroller)
+
 [JustFPV ESC Design](https://www.youtube.com/watch?v=TwAmmPxOpTM)
+
 AM32 & Betaflight Discords
+
 And various others which I have forgotten.
 
 #### This project was created for [Hack Club](https://hackclub.com/) - [Fallout](https://fallout.hackclub.com/)
