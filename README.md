@@ -33,7 +33,7 @@ Custom components include a from-scratch frame, designed for 3d printing (in HP-
 
 ## Why?
 
-To be honest a lot of this project was just for my own learning, but I also wanted to make a drone that could be generally cheaper than buying prebuilt components. I've mostly achieved this, with a net cost of ~X USD. Unfortunately, some parts I wanted to design from scratch proved to be infeasible within the scope of this project (namely vtx and vrx) so that has driven the total cost up slightly.
+To be honest a lot of this project was just for my own learning, but I also wanted to make a drone that could be generally cheaper than buying prebuilt components. I've somewhat achieved this, with a net cost of ~$300 USD, but obviously this cost is higher due to lack of bulk pricing. Unfortunately, some parts I wanted to design from scratch proved to be infeasible within the scope of this project (namely vtx and vrx) so that has driven the total cost up slightly.
 
 Aside from that, drones are cool, and tinywhoops especially so. The main benefit in my opinion is the crashability. The size makes it much more feasible to use alternative manufacturing options. As I mentioned earlier, I designed this with HP-12-CF filament in mind, but HP-12 MJF Nylon is also a very feasible option that could potentially be quite durable (I have simulated both, but it is worth noting that the CF simulations will not be entirely accurate due to the weakness along layer lines not being modelled).
 
