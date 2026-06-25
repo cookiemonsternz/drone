@@ -45,6 +45,7 @@ The drone assembly should be reasonably straightforward, I have provided a wonde
 Feel free to assemble it how you see fit, I'll likely change some things in the future but I'd like to try this configuration for now.
 
 For wiring, theres this handy diagram. A lot of it just uses jst-sh connectors (as conformant to the [Betaflight Connector Standard](https://betaflight.com/docs/development/manufacturer/connector-standard)).
+
 ![Wiring Diagram](./hardware/wiring-diagram/wiring-diagram-transparent.png)
 
 The ELRS receiver and vtx module can be attached however you see fit. I have included a mounting plate, and myself intend to use hot glue but velcro, etc. are also options.
