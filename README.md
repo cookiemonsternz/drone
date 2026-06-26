@@ -1,6 +1,6 @@
 # F<sub>~ish</sub>PV
 
-![Render](/hardware/cad/render/render-2.png)
+![Render](./hardware/cad/render/render-2.png)
 _Tinywhoop drone with custom ESC, FC, and frame._
 
 ## What?
